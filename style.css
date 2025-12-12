@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+.costamcss {
+  background-image: url('./Assets/Rectangle 1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  width: 100%;
+  height: 85vh;
+}
+
+
+.nav-sec{
+.sec-2{
+   
+    width: 265px;
+    padding: 8px;
+    border-radius: 6px;
+    margin-right: 0;
+    
+    input{
+        border: none;
+        font-size: 13px;
+        padding-right: 12px;
+    }}
+
+   
+}
+
+@media (max-width: 900px) {
+  .costamcss {
+    height: 70vh; 
+    background-position: right top; 
+  }}
+
+
+  /* Hero Section no 1 start here */
+
+  .hero-section-1{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+
+  }
+
+  .gapp{
+    display: flex;
+    gap: 120px;
+  }
+
+  /* Hero Section no 1 end here */
+@media (min-width: 0) and (max-width: 770px){
+  .font{
+    font-size: 13px;
+  }
+}
+  
