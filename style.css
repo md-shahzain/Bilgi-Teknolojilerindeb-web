@@ -11,7 +11,7 @@ html, body {
 }
 
 .costamcss {
-  background-image: url('./Assets/Rectangle 1.png');
+  background-image: url('Rectangle 1.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right;
@@ -67,4 +67,5 @@ html, body {
     font-size: 13px;
   }
 }
+
   
